@@ -41,9 +41,11 @@ We used the dataset hosted on Kaggle:
 Clone the repository and install dependencies:
 
 ```bash
+
 git clone https://github.com/your-username/persian-emotion-classifier.git
 cd persian-emotion-classifier
 pip install -r requirements.txt
+\```
 
 
 ## 🚀 Usage
