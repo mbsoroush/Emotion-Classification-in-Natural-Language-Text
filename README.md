@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Transformers](https://img.shields.io/badge/Transformers-4.40+-green)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
@@ -235,6 +234,11 @@ The project includes the following components:
    - Deploy on cloud for public access  
 
 ---
+
+## ⚖️ License
+
+This repository is provided **without an open-source license**.  
+All rights reserved – you may **not** use, copy, modify, or distribute this code without explicit permission.  
 
 📌 With this project, we showed that **transformer-based NLP models** can effectively handle **Persian emotion classification**, bridging the gap for practical AI applications in Persian language processing.
 
