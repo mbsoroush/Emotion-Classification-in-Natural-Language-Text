@@ -238,7 +238,7 @@ The project includes the following components:
 📌 With this project, we showed that **transformer-based NLP models** can effectively handle **Persian emotion classification**, bridging the gap for practical AI applications in Persian language processing.
 
 
-## ⚖️ License
+### ⚖️ License
 
 This repository is provided **without an open-source license**.  
 All rights reserved – you may **not** use, copy, modify, or distribute this code without explicit permission.  
