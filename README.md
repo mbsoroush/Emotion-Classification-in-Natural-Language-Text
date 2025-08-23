@@ -150,4 +150,93 @@ Example probabilities:
 📌 In this case, the model correctly classifies the sentence as expressing **Sadness**.
 
 
+## 🧪 Troubleshooting
+
+Common issues and their solutions when running the project:
+
+1. ❌ **Error: `meta tensor` or corrupted model**  
+   - Cause: Model files were incomplete or corrupted  
+   - ✅ Solution:  
+     - Re-extract the `parsbert-emotion/` folder  
+     - Ensure it contains all required files:  
+       (`pytorch_model.bin`, `config.json`, `tokenizer.json`, `vocab.txt`, etc.)  
+
+2. ❌ **Blank Streamlit Page**  
+   - Cause: Running with `python app.py` instead of Streamlit  
+   - ✅ Solution:  
+     - Always run with:  
+       ```bash
+       streamlit run app.py
+       ```  
+
+3. ❌ **NumPy Conversion Error**  
+   - Cause: Attempting `.numpy()` directly on a GPU tensor  
+   - ✅ Solution:  
+     - Use `.cpu().numpy()` instead to safely move tensors to CPU  
+
+4. ❌ **Model ID Not Found**  
+   - Cause: `parsbert-emotion` is not available on Hugging Face Hub  
+   - ✅ Solution:  
+     - Use the **local folder name** when loading:  
+       ```python
+       AutoModelForSequenceClassification.from_pretrained("parsbert-emotion")
+       ```  
+
+---
+
+📌 Following these steps should resolve most issues encountered when running the model or app.
+
+## 🚀 Deployment Options
+
+You can run the Persian Emotion Classifier both locally and online:
+
+1. ✅ **Local Deployment**  
+   - Run the app with:  
+     ```bash
+     streamlit run app.py
+     ```  
+   - Opens on `http://localhost:8501`  
+
+2. ✅ **Online Deployment Options**  
+   - **Streamlit Cloud** → Quick, free deployment for sharing apps  
+   - **Hugging Face Spaces** → Free hosting with Streamlit or Gradio  
+
+---
+
+## 📦 Deliverables
+
+The project includes the following components:
+
+1. ✅ Fine-tuned model → `parsbert-emotion/`  
+2. ✅ Training notebook → `emotions-classification-nlp.ipynb`  
+3. ✅ Streamlit app → `app.py`  
+4. ✅ Project report → `report.pdf`  
+5. ✅ Dataset → [Emotions in Persian Texts](https://www.kaggle.com/datasets/mbsoroush/emotions-in-persian-texts)  
+
+---
+
+## 🏁 Conclusion
+
+1. ✅ **Objective Achieved**  
+   - Fine-tuned **ParsBERT** for Persian emotion classification  
+
+2. ✅ **Key Features**  
+   - Supports **7 emotion classes**  
+   - Achieved **Macro F1 ~0.72**  
+   - Integrated with an interactive **Streamlit app**  
+
+3. ✅ **Impact**  
+   - Demonstrates the power of transformer models in **low-resource languages** like Persian  
+   - Provides a practical tool for text emotion analysis  
+
+4. ✅ **Future Improvements**  
+   - Expand dataset with more labeled examples  
+   - Explore advanced transformer models (e.g., RoBERTa, mBERT)  
+   - Deploy on cloud for public access  
+
+---
+
+📌 With this project, we showed that **transformer-based NLP models** can effectively handle **Persian emotion classification**, bridging the gap for practical AI applications in Persian language processing.
+
+
 
