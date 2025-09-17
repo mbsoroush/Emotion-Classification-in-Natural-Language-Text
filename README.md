@@ -1,4 +1,4 @@
-# 📘 Emotion Classification in Persian Text (NLP Project)
+# 📘 Emotion Classification in Persion Text (NLP Project)
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Transformers](https://img.shields.io/badge/Transformers-4.40+-green)
