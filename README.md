@@ -95,7 +95,7 @@ Below are the main steps:
    - Suitable for Persian NLP tasks  
 
 2. ✅ **Training Environment**  
-   - Kaggle GPU (Tesla **T4** or **P100**)  
+   - Kaggle GPU 
    - Python 3.10, Transformers 4.40+  
 
 3. ✅ **Hyperparameters**  
