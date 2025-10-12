@@ -1,4 +1,4 @@
-# 📘 Emotion Classification in Persian Text (NLP Project)
+# 📘 Emotion Classification in Natural Language Text(Persion text)
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Transformers](https://img.shields.io/badge/Transformers-4.40+-green)
@@ -8,7 +8,7 @@
 
 ## 🔰 Overview
 This project is an **NLP-based Persian Emotion Classifier** built with [ParsBERT](https://huggingface.co/HooshvareLab/bert-base-parsbert-uncased).  
-It predicts emotions from Persian text across **7 categories**:
+It predicts emotions from Persian text across **6 categories**:
 
 - 😃 HAPPY  
 - 😨 FEAR  
@@ -16,7 +16,6 @@ It predicts emotions from Persian text across **7 categories**:
 - 😡 HATE  
 - 😠 ANGRY  
 - 😲 SURPRISED  
-- ❓ OTHER  
 
 The project has two main parts:
 1. **Model Training** → Fine-tuning ParsBERT on a Persian emotion dataset using Kaggle GPU.  
