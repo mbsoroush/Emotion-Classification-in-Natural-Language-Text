@@ -1,4 +1,4 @@
-# 📘 Emotion Classification in Natural Language Text(Persion text)
+# 📘 Emotion Classification in Natural Language Text
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Transformers](https://img.shields.io/badge/Transformers-4.40+-green)
