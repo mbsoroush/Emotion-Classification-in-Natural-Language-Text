@@ -8,14 +8,15 @@
 
 ## 🔰 Overview
 This project is an **NLP-based Persian Emotion Classifier** built with [ParsBERT](https://huggingface.co/HooshvareLab/bert-base-parsbert-uncased).  
-It predicts emotions from Persian text across **6 categories**:
+It predicts emotions from Persian text across **7 categories**:
 
 - 😃 HAPPY  
 - 😨 FEAR  
 - 😢 SAD  
 - 😡 HATE  
 - 😠 ANGRY  
-- 😲 SURPRISED  
+- 😲 SURPRISED
+-  ?  OTHER
 
 The project has two main parts:
 1. **Model Training** → Fine-tuning ParsBERT on a Persian emotion dataset using Kaggle GPU.  
