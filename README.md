@@ -16,7 +16,7 @@ It predicts emotions from Persian text across **7 categories**:
 - 😡 HATE  
 - 😠 ANGRY  
 - 😲 SURPRISED
--  ?  OTHER
+- ❓  OTHER
 
 The project has two main parts:
 1. **Model Training** → Fine-tuning ParsBERT on a Persian emotion dataset using Kaggle GPU.  
