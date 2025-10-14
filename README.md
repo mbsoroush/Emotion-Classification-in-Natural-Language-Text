@@ -47,7 +47,6 @@ pip install -r requirements.txt
 
 ```
 
-
 ## 🚀 Usage
 
 To run the application locally:
@@ -201,7 +200,7 @@ You can run the Persian Emotion Classifier both locally and online:
    - **Streamlit Cloud** → Quick, free deployment for sharing apps  
    - **Hugging Face Spaces** → Free hosting with Streamlit or Gradio  
 
-
+---
 
 ## 📦 Deliverables
 
@@ -213,7 +212,7 @@ The project includes the following components:
 4. ✅ Project report → `report.pdf`  
 5. ✅ Dataset → [Emotions in Persian Texts](https://www.kaggle.com/datasets/mbsoroush/emotions-in-persian-texts)  
 
-
+---
 
 ## 🏁 Conclusion
 
@@ -237,7 +236,6 @@ The project includes the following components:
 ---
 
 📌 With this project, we showed that **transformer-based NLP models** can effectively handle **Persian emotion classification**, bridging the gap for practical AI applications in Persian language processing.
-
 
 
 ## ⚖️ License
