@@ -185,6 +185,7 @@ Common issues and their solutions when running the project:
 
 📌 Following these steps should resolve most issues encountered when running the model or app.
 
+
 ## 🚀 Deployment Options
 
 You can run the Persian Emotion Classifier both locally and online:
@@ -200,7 +201,7 @@ You can run the Persian Emotion Classifier both locally and online:
    - **Streamlit Cloud** → Quick, free deployment for sharing apps  
    - **Hugging Face Spaces** → Free hosting with Streamlit or Gradio  
 
----
+
 
 ## 📦 Deliverables
 
@@ -212,7 +213,7 @@ The project includes the following components:
 4. ✅ Project report → `report.pdf`  
 5. ✅ Dataset → [Emotions in Persian Texts](https://www.kaggle.com/datasets/mbsoroush/emotions-in-persian-texts)  
 
----
+
 
 ## 🏁 Conclusion
 
@@ -238,7 +239,8 @@ The project includes the following components:
 📌 With this project, we showed that **transformer-based NLP models** can effectively handle **Persian emotion classification**, bridging the gap for practical AI applications in Persian language processing.
 
 
-### ⚖️ License
+
+## ⚖️ License
 
 This work is licensed under a [Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).  
 Use in CVs, portfolios, or derivative works is **not permitted without explicit permission** from the author.
