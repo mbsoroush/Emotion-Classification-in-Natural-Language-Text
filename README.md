@@ -240,8 +240,9 @@ The project includes the following components:
 
 ### ⚖️ License
 
-This repository is provided **without an open-source license**.  
-All rights reserved – you may **not** use, copy, modify, or distribute this code without explicit permission.  
+This work is licensed under a [Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).  
+Use in CVs, portfolios, or derivative works is **not permitted without explicit permission** from the author.
+
 
 
 
